@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin; /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  background-color: grey;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.app {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  background-size: 100vw 100vh;
+  min-height: 98.5vh;
+  border: 8px solid #00040a93;
+  /* background-color: white; */
+  margin: 2px;
+  padding: 2px;
+}
+
+/* .mainImg {
+  padding: 10px 0 5px 0;
+} */
